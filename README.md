@@ -33,6 +33,7 @@ This repository provides a simple Flask web app to practice crafting effective p
 
 Follow these steps to set up the project locally.
 
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/xanderstevenson/prompt-engineering-practice.git
@@ -44,12 +45,13 @@ cd prompt-engineering-practice
 ```
 python3 -m venv venv
 ```
+```
 source venv/bin/activate   # On macOS / Linux
-
+```
 or
-
+```
 venv\Scripts\activate      # On Windows
-
+```
 
 ### 3. Install Requirements
 ```
@@ -57,12 +59,13 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set Mistral API Key
-
+```
 export MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"  # Mac
-
+```
 or
-
+```
 $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
+```
 
 ### Run the Flask App
 
