@@ -45,6 +45,9 @@ cd prompt-engineering-practice
 python3 -m venv venv
 ```
 source venv/bin/activate   # On macOS / Linux
+
+or
+
 venv\Scripts\activate      # On Windows
 
 
@@ -56,6 +59,9 @@ pip install -r requirements.txt
 ### 4. Set Mistral API Key
 
 export MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"  # Mac
+
+or
+
 $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 
 ### Run the Flask App
