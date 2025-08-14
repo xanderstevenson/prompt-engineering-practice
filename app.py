@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Load Mistral API key from environment variable
 MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
-AGENT_ID = "ag:a0d6f108:20250813:prompt-crafting-agent:3f92f654"
+AGENT_ID = os.getenv("MISTRAL_AGENT_ID")
 MISTRAL_API_URL = "https://api.mistral.ai/v1/agents/completions"
 
 def ask_agent(message):
