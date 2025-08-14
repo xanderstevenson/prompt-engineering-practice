@@ -29,6 +29,7 @@ This repository provides a simple Flask web app to practice crafting effective p
 - Python 3.13+
 - Mac / Windows / Linux PC
 - Mistral AI API Key (from [Mistral AI](https://mistral.ai/))
+- Mistral Agent ID
 
 
 
@@ -73,6 +74,7 @@ pip install -r requirements.txt
 > 1.  **Create a Mistral AI Account**: Go to [Mistral AI](https://mistral.ai/) and sign up for an account. Create an Organization. Set up Multi-Factor Authentication (MFA) for enhanced security.
 > 2.  **Generate an API Key**: Navigate to the Mistral dashboard console (La Platforme). Go to `API Keys` and click "Create New Key". Copy the generated API key.
 
+- Detailed instructions on how to sign up for Mistral and obtain an API key are found in this [PDF](https://www.ciscolive.com/c/dam/r/ciscolive/global-event/docs/2025/pdf/CISCOU-1060.pdf) from a Cisco Live session regarding Mistral APIs.
 
 ```
 export MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"  # Mac
@@ -81,6 +83,14 @@ or
 ```
 $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 ```
+
+### 5. Create the Mistral Agent
+
+- From the [Agents](https://console.mistral.ai/build/agents) tab in Mistral's La Platforme, click `Create new Agent'.
+- Name it, select a model, 
+
+
+
 
 ### Run the Flask App
 
