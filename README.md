@@ -68,6 +68,12 @@ pip install -r requirements.txt
 ```
 
 ### 4. Set Mistral API Key
+
+> **Note:** How to obtain a Mistral AI API Key
+> 1.  **Create a Mistral AI Account**: Go to [Mistral AI](https://mistral.ai/) and sign up for an account. Create an Organization. Set up Multi-Factor Authentication (MFA) for enhanced security.
+> 2.  **Generate an API Key**: Navigate to the Mistral dashboard console (La Platforme). Go to `API Keys` and click "Create New Key". Copy the generated API key.
+
+
 ```
 export MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"  # Mac
 ```
@@ -75,10 +81,6 @@ or
 ```
 $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 ```
-
-> **Note:** How to obtain a Mistral AI API Key
-> 1.  **Create a Mistral AI Account**: Go to [Mistral AI](https://mistral.ai/) and sign up for an account. Create an Organization. Set up Multi-Factor Authentication (MFA) for enhanced security.
-> 2.  **Generate an API Key**: Navigate to the Mistral dashboard console (La Platforme). Go to `API Keys` and click "Create New Key". Copy the generated API key.
 
 ### Run the Flask App
 
