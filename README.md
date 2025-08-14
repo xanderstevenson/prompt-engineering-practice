@@ -87,9 +87,21 @@ $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 ### 5. Create the Mistral Agent
 
 - From the [Agents](https://console.mistral.ai/build/agents) tab in Mistral's La Platforme, click `Create new Agent'.
-- Name it, select a model, 
+- Name it, select a model, select the Randomness and enter Instructions / System prompt with details on how the agent should converse regarding prompts. [Here](https://github.com/xanderstevenson/prompt-engineering-practice/blob/main/media/example-system-prompt.txt) is and example system prompt for prompt engineering.
+- Click `Deploy` and copy the Agent ID near the top of the page.
+
+> **Note:** If you select "Le Chat", a URL for an in-browser chat assistant trained on your system prompt will be generated as well.
 
 
+### 4. Set Mistral Agent ID
+
+```
+export MISTRAL_AGENT_ID="YOUR_MISTRAL_AGENT_ID"  # Mac
+```
+or
+```
+$env:MISTRAL_AGENT_ID="YOUR_MISTRAL_AGENT_ID"    # Windows
+```
 
 
 ### Run the Flask App
@@ -97,6 +109,7 @@ $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 ```
 python app.py
 ```
+
  
 ### File Structure
 
