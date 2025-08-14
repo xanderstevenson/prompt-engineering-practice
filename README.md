@@ -1,6 +1,6 @@
 # Prompt Engineering Practice
 
-This repository provides a simple Flask web app to practice crafting effective prompts for a network engineering assistant (LeChat / Mistral). Users will interact with the agent and receive feedback on prompt clarity and actionability.
+This repository provides a simple Flask web app to practice crafting effective prompts using a network engineering assistant. Users will interact with the (LeChat / Mistral) agent and receive feedback on prompt clarity and actionability.
 
 <br>
 
