@@ -4,8 +4,8 @@ This repository provides a simple Flask web app to practice crafting effective p
 
 
 <p align="center">
-  <img src="https://github.com/xanderstevenson/prompt-engineering-practice/blob/main/media/prompt-practice-1.png" width="500px">
-  <img src="https://github.com/xanderstevenson/prompt-engineering-practice/blob/main/media/prompt-practice-2.png" width="500px">
+  <img src="https://github.com/xanderstevenson/prompt-engineering-practice/blob/main/media/prompt-practice-1.png" width="450px">
+  <img src="https://github.com/xanderstevenson/prompt-engineering-practice/blob/main/media/prompt-practice-2.png" width="450px">
 </p>
 
 
