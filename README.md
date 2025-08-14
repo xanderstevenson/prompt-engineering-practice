@@ -11,6 +11,8 @@ This repository provides a simple Flask web app to practice crafting effective p
 
 ---
 
+
+
 ## Usage
 
 - Open the web app in your browser.
@@ -22,11 +24,18 @@ This repository provides a simple Flask web app to practice crafting effective p
 - Follow the on-screen instructions for each scenario.
 
 
+## Requirements
+
+- Python 3.13+
+- Mac / Windows / Linux PC
+- Mistral AI API Key (from [Mistral AI](https://mistral.ai/))
+
+
+
 ### Notes
 
 - Ensure your .env or API keys are never committed to Git.
 
-- This project requires Python 3.13+.
   
 
 ## Getting Started
@@ -66,6 +75,11 @@ or
 ```
 $env:MISTRAL_API_KEY="YOUR_MISTRAL_API_KEY"    # Windows
 ```
+
+> **Note:** Obtain a Mistral AI API Key
+
+1.  *Create a Mistral AI Account*: Go to [Mistral AI](https://mistral.ai/) and sign up for an account. Set up Multi-Factor Authentication (MFA) for enhanced security.
+2.  *Generate an API Key*: Navigate to the Mistral Console. Go to `API Keys` and click "Create New Key". Copy the generated API key.
 
 ### Run the Flask App
 
